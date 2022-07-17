@@ -1,9 +1,7 @@
 const reverseString = function(string) {
-    let returnState = "";
-    for (let i = string.length - 1; i >= 0; i--) {
-        returnState += string[i];
-    }
-    return returnState;
+    // splits into characters then reverses then joins back
+    
+    return string.split('').reverse().join('');
 };
 
 // Do not edit below this line
